@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Morple Photography</title>
+</head>
+<body class="container">
+
+    <i id="arrow-down" onclick="window.scrollBy(0, window.innerHeight);" class="fa fa-arrow-down fa-lg arrow"></i>
+    <i id="arrow-up" onclick="window.scrollTo(0,0);" class="fa fa-arrow-up fa-lg arrow"></i>
+    <div class="sticky-box">
+        <header>
+            <div id="logo-box">
+                <img src="./assets/logo_black.svg" alt="" id="logo_black">
+                <img src="./assets/logo_white.svg" alt="" id="logo_white">
+                <h3><strong>Morple Photography</strong></h3>
+            </div>
+            
+            <div id="more">
+                <i id="more-btn" class="fa fa-bars fa-2x"></i>
+                <div id="more-content">
+                    <a href="#landing"><h3><strong>Home</strong></h3></a>
+                    <a href="#trailer-1"><h3><strong>Trailers</strong></h3></a>
+                    <a href="#responsive-wrapper"><h3><strong>Profile</strong></h3></a>
+                    
+                </div>
+            </div>
+            
+        </header>
+    </div>
+
+    <div id="landing" class="section">
+
+        <video autoplay muted loop id="landing-video">
+            <source src="./assets/Sun Glaring Down The Trees.mp4" type="video/mp4">
+        </video>
+        <div id="landing-overlay">
+            <h3>The forefront of photography</h3>
+            <div>
+                <h1><strong>Witnessing Nature.</strong></h1>
+            </div>
+            <div>
+                <h1><strong>Capturing Memories.</strong></h1>
+            </div>
+            
+            <div>
+                <h1><strong>Transforming Images.</strong></h1>
+            </div>
+
+        </div>
+        
+       
+        
+    </div>
+
+    <div id="trailer-1" class="section trailer">
+        <h2>Dynamic capturing</h2>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, odio.</h3>
+
+    </div>
+
+    <div id="trailer-2" class="section trailer">
+        <h2>Events</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, commodi.</h3>
+
+    </div>
+
+    <div id="trailer-3" class="section trailer">
+        <h2>Custom Photo Albums</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ipsum!</h3>
+        
+    </div>
+
+    <div id="responsive-wrapper">
+        <div  id="profile" class="responsive-section">
+            <h1>Get In Touch</h1>
+            <img src="https://source.unsplash.com/wyZduzPHWiE">
+            <div>
+                <h3>Mr. Morple</h1>
+                <p>Freelance Photographer</p>
+                <p>Phone <strong>+44 7000 000 000</strong></p>
+                <p>Email: <strong>admin@placeholder.test</strong></p>
+            </div>
+        </div>
+        <footer id="social" class="responsive-section">
+            <div >
+                <a href="#"><h3><strong>Linkedn</strong></h3></a>
+                <a href="#"><h3><strong>UpWork</strong></h3></a>
+                <a href="#"><h3><strong>Facebook</strong></h3></a>
+                <a href="#"><h3><strong>Twitter</strong></h3></a>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+<script src="js/script.js"></script>
+</html>
